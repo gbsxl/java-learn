@@ -5,5 +5,6 @@ public class Main {
                 Celta.nome + " " +
                         Celta.ano
         );
+        Celta.andar();
     }
 }
