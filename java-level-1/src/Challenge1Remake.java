@@ -45,6 +45,7 @@ public class Challenge1Remake {
             listNinjas.add(ninja);
             printDetails(ninja);
         }
+        getData.close();
     }
     static void printDetails(Ninja ninja){
         System.out.println(
