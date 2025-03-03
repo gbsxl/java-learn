@@ -76,7 +76,6 @@ public class Challenge1Remake {
             System.out.println(missionPercentageLog);
     }
 }
-
 class Ninja{
 //    Data of Nijas
     private String name;
