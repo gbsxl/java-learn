@@ -68,12 +68,12 @@ public class Challenge1Remake {
             );
         }
             String missionPercentageLog = switch (ninja.getMissionProgress()) {
-                case 100 -> "Missão concluída";
-                case byte progress when (progress >= 85 && progress < 100) -> "Missão quase concluída";
-                case byte progress when (progress >= 50 && progress < 85) -> "Missão em andamento";
-                default -> "Missão apenas começando";
+            case 100 -> "Missão concluída";
+            default -> (ninja.getMissionProgress() >= 85) ? "Missão quase concluída"
+                    : (ninja.getMissionProgress() >= 50) ? "Missão em andamento"
+                    : "Missão apenas começando";
             };
-            System.out.println(missionPercentageLog);
+        System.out.println(missionPercentageLog);
     }
 }
 class Ninja{
