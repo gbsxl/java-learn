@@ -10,13 +10,15 @@ public class Main {
                 "\nele opta por Poupança já que rende juros e não tem taxas de transferência\n" +
                 "\nLOG BANKING: "); sasuke.depositar(7000, TipoConta.POUPANCA);
 
-        System.out.println("\nSakura fica feliz com a notiícia mas lamenta por não ter tido a mesma sorte já que Naruto pediu 240 emprestado a ela prometendo voltar com o dobro, mas ele apostou na vila da Folha... e decide verificar seu saldo atual"); sakura.saldoBancario[1] = 1000;
+        System.out.println("\nSakura fica feliz com a notícia mas lamenta por não ter tido a mesma sorte já que Naruto pediu 240 emprestado a ela prometendo voltar com o dobro, mas ele apostou na vila da Folha... e decide verificar seu saldo atual"); sakura.saldoBancario[1] = 1000;
 
         System.out.println("\nLOG BANKING: "); sakura.consultarSaldo(TipoConta.CORRENTE);
 
         System.out.println("\nNaruto se sentindo mal por ter perdido o dinheiro tem a brilhante ideia de pedir a Sasuke um dinheiro emprestado já que ele tava rachando agora e Sasuke aceita para receber mensalmente com Juros");
 
         System.out.println("\nLOG BANKING: "); sasuke.tranferencia(TipoConta.POUPANCA, naruto, 240);
+
+        System.out.println("\nNaruto verifica o saldo");
 
         System.out.println("\nLOG BANKING: "); naruto.consultarSaldo(TipoConta.POUPANCA);
 
