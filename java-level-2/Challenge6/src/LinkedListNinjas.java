@@ -51,4 +51,12 @@ public class LinkedListNinjas {
             System.out.println("Ninja " + name + " não encontrado!");
         }
     }
+    void removeNinjaByIndex(int index){
+        System.out.println("----------------------------NINJA REMOVIDO----------------------------");
+        System.out.println("Indíce " + listNinjas.indexOf(listNinjas.get(index)) + ": " +
+                "\nNAME= " + listNinjas.get(index).getName() +
+                "\nAGE= " +listNinjas.get(index).getAge() +
+                "\nVILLAGE= " + listNinjas.get(index).getVillage() + "\n");
+        listNinjas.remove(index);
+    }
 }

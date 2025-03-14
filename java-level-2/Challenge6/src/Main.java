@@ -36,6 +36,7 @@ public class Main {
         linked.printAllNinjas();
         linked.orderedListBy(ObjectParam.NAME);
         linked.printAllNinjas();
+        linked.removeNinjaByIndex(2);
         linked.getInfoByNinjaName("Naruto");
         linked.getInfoByNinjaName("Pain");
     }
