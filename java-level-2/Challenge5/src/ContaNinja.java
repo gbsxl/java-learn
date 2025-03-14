@@ -20,8 +20,8 @@ public class ContaNinja extends BancoKonoha{
                 "\nNOME: "   + nome   +
                 "\nIDADE: "  + idade  +
                 "\nALDEIA: " + aldeia +
-                "\nSALDO CORRENTE: " + arruma.format(saldoBancario[1])+
-                "\nSALDO POUPANÇA: " + arruma.format(saldoBancario[0])
+                "\nSALDO CORRENTE: "  + arruma.format(saldoBancario[1]) +
+                "\nSALDO POUPANÇA: "  + arruma.format(saldoBancario[0])
         );
     }
     void tranferencia(TipoConta tipoDeConta,ContaNinja destino, double valor){

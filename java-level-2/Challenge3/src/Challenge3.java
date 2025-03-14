@@ -17,9 +17,9 @@ class Ninj{
     void mostrarInformacoes(){
         System.out.println(
                 "\nNOME: " + name +
-                        "\nIDADE: " + idade +
-                        "\nMISSÃO: " + missao +
-                        "\nSTATUS: " + statusMissao
+                "\nIDADE: " + idade +
+                "\nMISSÃO: " + missao +
+                "\nSTATUS: " + statusMissao
         );
     }
 }
